@@ -9,7 +9,8 @@ public class App {
         System.out.println("Digite o segundo número: ");
         int n2 = scanner.nextInt();
         System.out.println("Digite um operador(+, -, *, /): ");
-        char operador = scanner.next().charAt(0);
+        char operador = scanner.next().charAt(1);
+
 
         double resultado;
 
