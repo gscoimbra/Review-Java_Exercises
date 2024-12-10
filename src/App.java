@@ -38,26 +38,26 @@ public class App {
 //            default:
 //                System.out.println("Operador Inválido!");
 // Ex02: Verifique se uma palavra é palíndromo:
-        System.out.println("Digite uma palavra: ");
-        String palavra = scanner.nextLine();
-
-        palavra = palavra.toLowerCase(); // Para deixar tudo minúsculo.
-
-        boolean ehPalindromo = true;
-        int tamanhoPalavra = palavra.length();
-
-        for (int i = 0; i < tamanhoPalavra/2; i++) {
-            if (palavra.charAt(i) != palavra.charAt(tamanhoPalavra - 1)) {
-                ehPalindromo = false;
-                break;
-            }
-        }
-
-        if (ehPalindromo) {
-            System.out.println(palavra + " é um palíndromo");
-        } else {
-            System.out.println(palavra + " não é um palíndromo");
-        }
+//        System.out.println("Digite uma palavra: ");
+//        String palavra = scanner.nextLine();
+//
+//        palavra = palavra.toLowerCase(); // Para deixar tudo minúsculo.
+//
+//        boolean ehPalindromo = true;
+//        int tamanhoPalavra = palavra.length();
+//
+//        for (int i = 0; i < tamanhoPalavra/2; i++) {
+//            if (palavra.charAt(i) != palavra.charAt(tamanhoPalavra - 1)) {
+//                ehPalindromo = false;
+//                break;
+//            }
+//        }
+//
+//        if (ehPalindromo) {
+//            System.out.println(palavra + " é um palíndromo");
+//        } else {
+//            System.out.println(palavra + " não é um palíndromo");
+//        }
 
 
     }
